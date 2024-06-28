@@ -14,6 +14,7 @@ gem "sqlite3", "~> 1.4"
 gem "pg"
 gem "devise"
 gem "bootstrap", "~> 5.1.3"
+gem "activeadmin"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
