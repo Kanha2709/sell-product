@@ -52,7 +52,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: sell_product
+  database: sell_product_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -76,7 +76,7 @@ test:
 #
 production:
   <<: *default
-  database: mars1_checkin_production
+  database: sell_product_production
   username: mars_checkin
   password: <%= ENV['MARS_CHECKIN_DATABASE_PASSWORD'] %>
 
