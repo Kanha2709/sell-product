@@ -14,3 +14,12 @@
  *= require_self
  */
  @import "bootstrap";
+ @import 'variables';
+
+  body {
+  background-color: $background-color;
+  }
+
+  a, a:link, a:visited {
+    text-decoration: none;
+  }

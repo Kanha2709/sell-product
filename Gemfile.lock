@@ -307,10 +307,12 @@ DEPENDENCIES
   devise
   importmap-rails
   jbuilder
+  jquery-rails
   pg
   puma (~> 5.0)
   rails (~> 7.0.8, >= 7.0.8.4)
   redis (~> 4.0)
+  sassc-rails
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)
