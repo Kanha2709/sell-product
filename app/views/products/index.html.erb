@@ -12,7 +12,8 @@
           <p class="card-text"><%= truncate(product.description, length: 100) %></p>
           <p class="card-text"><strong>Price: </strong><%= number_to_currency(product.price) %></p>
           <p class="card-text"><strong>Stock: </strong><%= product.stock %></p>
-          <a href="<%= product_path(product) %>" class="btn btn-primary">View Product</a>
+          <a href="<%= product_path(product) %>" class="btn btn-primary text-white">View Product</a>
+          <a href="<%= "#" %>" class="btn btn-secondary text-white">Add to Cart</a>
         </div>
       </div>
     </div>
