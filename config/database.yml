@@ -76,7 +76,8 @@ test:
 #
 production:
   <<: *default
-  database: sell_product_production
-  username: mars_checkin
-  password: <%= ENV['MARS_CHECKIN_DATABASE_PASSWORD'] %>
+  database: sell_product
+  username: sell_product_user
+  password: abjM09NAeHZNuvWOvp0kgpjIuOziYCBh
+  port: 5432
 
