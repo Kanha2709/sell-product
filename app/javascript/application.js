@@ -8,3 +8,5 @@ import "popper"
 import "bootstrap"
 
 import "controllers"
+
+import "@fortawesome/fontawesome-free";

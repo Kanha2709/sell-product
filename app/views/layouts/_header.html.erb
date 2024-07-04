@@ -15,8 +15,14 @@
           <%= link_to 'Categories', categories_path, class: "nav-link" %>
         </li>
       </ul>
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ms-auto">
         <% if user_signed_in? %>
+          <li class="nav-item">
+            <%= link_to orders_path, class: "nav-link" do %>
+               <i class="fas fa-shopping-cart text-white"></i>Cart
+              <span class="badge bg-primary"><%= 1 %></span>
+            <% end %>
+            </li>
           <li class="nav-item">
             <%= link_to 'My Orders', orders_path, class: "nav-link" %>
           </li>
